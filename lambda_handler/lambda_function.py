@@ -29,15 +29,3 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': 'EC2 instances stopped successfully.'
     }
-
-def invoke_lambda():
-    # Simulate event and context objects
-    event = {}
-    context = {}
-
-    # Call the Lambda handler function
-    print(lambda_handler(event, context))
-
-
-# Run the Lambda function
-invoke_lambda()
