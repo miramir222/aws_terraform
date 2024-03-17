@@ -42,6 +42,7 @@ jobs:
         tf_actions_subcommand: 'plan'
         tf_actions_working_dir: '.'
         tf_actions_comment: true
+        args: '-out=output'
 
     - name: Save Terraform
       run: echo "PLAN_OUTPUT=$(cat output)" >> $GITHUB_ENV
