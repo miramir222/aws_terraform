@@ -2,9 +2,9 @@ import boto3
 
 
 def lambda_handler(event, context):
-    aws_access_key_id = 'AKIAQ6Q3DI64YBAWG55C'
-    aws_secret_access_key = '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'
-    aws_region = 'ap-south-1'
+    aws_access_key_id = 'xxx'
+    aws_secret_access_key = 'xxx'
+    aws_region = 'xxx'
 
     ec2 = boto3.client('ec2', region_name=aws_region,
                        aws_access_key_id=aws_access_key_id,
